@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .list { 
+      list-style-type: none; 
+      padding: 0; 
+    } 
+      .list li { 
+      display: flex; 
+      align-items: center; 
+      justify-content: space-between; 
+      padding: 10px; 
+      background-color: white; 
+      border-radius: 4px; 
+      margin-bottom: 10px; 
+    } 
+    .buton{
+        height: 30px;
+        width: 70px;
+        margin-top: 5px;
+        background-color:rgb(63,160,198);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 10px;
+    }
+    </style>
+</head>
+
+<body class="body">
+<div class="container">
+   <h1><b>TODO APP</b></h1>
+   <br><br>
+   <!-- <form class="form1"> -->
+    <input  type="text" id="task-input" class="task-input" placeholder="Enter Task">
+    <button onclick="fun()" class="btn1" id="add">Add</button>
+   <!-- </form> -->
+   <br><br>
+   <ul class="list" , id="list">
+
+   </ul>
+           
+</div>
+
+
+
+<script src="./TODO2.js"></script>    
+</body>
+</html>
